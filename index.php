@@ -58,7 +58,7 @@ $movies = [
                 <?php foreach ($movies as $movie) { ?>
                     <div class="col">
                         <div class="card">
-                            <img src=" <?= $movie->poster ?> " class="img-fluid" alt=" <?= $movie->title . " poster" ?>">
+                            <img src=" <?= $movie->poster ?> " alt=" <?= $movie->title . " poster" ?>">
                             <div class="card-body">
                                 <h5 class="card-title"><?= $movie->title ?></h5>
                                 <p class="card-text">Year: <?= $movie->year ?></p>

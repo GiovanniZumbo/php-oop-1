@@ -1,11 +1,13 @@
-main{
+/* main{
     height: 100vh;
     background-image: url("../img/hogwarts-bg.jpg");
     background-repeat: no-repeat;
-    background-size:auto;
+    background-size: auto;
+} */
+
+main{
+    background-color: black;
 }
-
-
 
 .card{
     opacity: 0.7;
