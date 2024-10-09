@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . "/Genre.php";
+
 class Movie
 {
 
@@ -17,6 +19,8 @@ class Movie
     public $poster;
     //already seen
     public $watched;
+    //genre
+    public $genre;
 
     function __construct(
         string $_title,
@@ -24,7 +28,8 @@ class Movie
         int $_year,
         int $_id,
         string $_poster,
-        bool $_watched
+        bool $_watched,
+        Genre $_genre,
     ) {
         $this->title = $_title;
         $this->language = $_language;
@@ -32,6 +37,7 @@ class Movie
         $this->id = $_id;
         $this->poster = $_poster;
         $this->watched = $_watched;
+        $this->genre = $_genre;
     }
 
 
