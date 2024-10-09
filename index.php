@@ -1,6 +1,7 @@
 <?php
 
 require_once __DIR__ . "/classes/Movie.php";
+require_once __DIR__ . "/classes/Genre.php";
 
 $Hp1 = new Movie("Harry Potter and the Sorcerer's Stone", "eng", 2001, 1, "img", false, new Genre(["Fantasy"], true, 1));
 $Hp2 = new Movie("Harry Potter and the Chamber of Secrets", "eng", 2002, 2, "img", false, new Genre(["Fantasy"], true, 2));
