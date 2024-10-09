@@ -8,7 +8,7 @@ class Genre
     public $id;
 
     public function __construct(
-        array $_name,
+        mixed $_name,
         bool $_minorsAllowed,
         int $_id
     ) {
